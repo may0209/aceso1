@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#FFF1E5;
+}
+
+h1{
+    color:#E5645E;
+}
+
+h3,h5{
+    color:#BB6250;
+}
+
+.containert {
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+}
+
+.menu {
+    margin-left: auto;
+}
+.menu a {
+    margin-right: 40px; 
+    color:#E5645E;
+}
+
+.col{
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fae8e1;
+  border-radius:10px;
+}
+.col a{
+    font-size: 40px;
+    color:#E5645E;
+}
+.container{
+  display: flex;
+  height: 100%;
+  padding: 0 5px;
+}
+
+.teacherintroduction {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.teacherintroduction h1{
+  text-align: center;  
+}
+.teacher {
+    border: 1px solid #bb6250;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.experience li{
+  color:#E5645E;
+}
+
+.copyright p{
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#FFF1E5;
+}
+
+h1{
+    color:#E5645E;
+}
+h3,h2,h5{
+    color:#BB6250;
+}
+.container {
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+}
+
+.menu {
+    margin-left: auto;
+}
+.menu a {
+    margin-right: 40px; 
+    color:#E5645E;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.container h1{
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: calc(30% - 20px); /* 每個商品的寬度為 30% 並減去 margin */
+    margin-bottom: 5px;
+    padding: 20px;
+    border: 1px solid #bb6250;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; /* 垂直置中 */
+    align-items: center; /* 水平置中 */
+}
+
+.product h3 {
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-bottom: 5px;
+}
+
+.add-to-cart {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+.copyright p{
+    text-align: center;
+}
